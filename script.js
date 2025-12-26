@@ -28,6 +28,16 @@ window.addEventListener("scroll", () => {
     });
 });
 
+const backToTop = document.getElementById("backToTop");
+
+backToTop.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
+
+
 /* ========== MODAL BUKTI GAMBAR ========== */
 let images = [];
 let currentIndex = 0;
