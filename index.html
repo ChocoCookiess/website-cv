@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <title>Cokorda Istri Aulia Chandra Dewi</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a2d9d6a91f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body>
@@ -18,6 +20,7 @@
             <li><a href="#education">Education</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#skills">Skills</a></li>
+            <li><a href="#soft-skills">Soft Skills</a></li>
             <li><a href="#projects">Projects</a></li>
         </ul>
     </nav>
@@ -28,16 +31,16 @@
         <div class="hero-container">
 
             <div class="hero-image">
-                <img src="website/Profile.jpg" alt="Profile Picture">
+                <img src="website/cv_profile2.JPEG" alt="Profile Picture">
             </div>
 
             <div class="hero-text">
-                <h1>Cokorda Istri Aulia Chandra Dewi, S.Kom</h1>
+                <h1>Cokorda Istri Aulia Chandra Dewi</h1>
                 <p class="role">Information Technology Student</p>
 
                 <div class="contact-buttons">
                     <a href="mailto:cokaulia97@gmail.com" class="btn"><i class="fa-regular fa-envelope"></i> Gmail</a>
-                    <a href="https://github.com/" class="btn"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a href="https://github.com/ChocoCookiess" class="btn"><i class="fa-brands fa-github"></i> GitHub</a>
                     <a href="http://www.linkedin.com/in/chocokieslia/" class="btn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
                     <a href="https://www.instagram.com/chocokieslia" class="btn"><i class="fa-brands fa-instagram"></i> Instagram</a>
                     <a href="tel:08123456789" class="btn"><i class="fa-solid fa-phone"></i> Phone</a>
@@ -56,26 +59,18 @@
         <div style="display: flex; gap: 20px; align-items: flex-start; justify-content: center;">
 
             <!-- LEFT TEXT -->
-            <div style="about-text;">
-                <p>Saya merupakan mahasiswa semester 5 jurusan 
-                    Teknologi Informasi yang berminat pada pengembangan 
-                    web sederhana, desain UI/UX, serta manajemen data. 
-                    Saya memiliki ketertarikan dalam memperdalam minat 
-                    saya untuk mempelajari serta mengembangkan pengetahuan 
-                    dalam bidang teknologi.</p>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>I am a fifth-semester Information Technology student with a strong interest in simple web development, UI/UX design, and data management. I’m highly motivated to continuously learn and further develop my knowledge in the field of technology.
 
-                <p>Berpengalaman dalam organisasi, kepanitiaan, dan pekerjaan 
-                    secara WFH membuat saya terbiasa bekerja  secara  terstruktur, 
-                    disiplin dan bertanggung jawab, serta mampu dalam mengasah skilll 
-                    seperti mengelola dokumen, laporan, dan komunikasi antar-divisi. 
-                    Pengalaman tersebut telah melatih saya untuk bekerja dalam tim dan
-                    mampu beradaptasi dengan lingkungan kerja yang dinamis.
-                </p>
+                    </p>
 
-                <p>
-                    Kombinasi kemampuan teknis dan administratif membuat saya siap bekerja 
-                    profesional dan adaptif di industri digital.
-                </p>
+                    <p>I have experience in organizational activities, committees, and remote work (WFH), which has accustomed me to working in a structured, disciplined, and responsible manner. Through these experiences, I’ve developed skills in document management, report preparation, and cross-department communication, as well as the ability to work effectively in teams and adapt to dynamic work environments.
+                    </p>
+
+                    <p>With a combination of technical understanding and administrative skills, I’m prepared to contribute professionally, work adaptively, and support digital-based processes in the industry.
+                    </p>
+                </div>
             </div>
 
             <!-- RIGHT DOWNLOAD BOX -->
@@ -87,7 +82,7 @@
                     </div>
                 </div> 
                 <h3 style="color:#d63f84;">Download CV</h3>
-                <p style="font-size:14px; margin-top:-8px;">Klik tombol di bawah</p>
+                <p style="font-size:14px; margin-top:-8px;">click button below</p>
 
                 <div style="display:flex; flex-direction:column; gap:12px; margin-top:15px;">
                  <!-- PREVIEW -->
@@ -108,19 +103,20 @@
     <!-- ============ EDUCATION ============ -->
     <section id="education" class="section">
         <h2>Education</h2>
-        <div class="subtitle">Latar belakang pendidikan saya</div>
+        <div class="subtitle">My Educational Background</div>
 
         <div class="exp-grid">
             <div class="edu-card">
                 <i class="fa-solid fa-graduation-cap edu-icon"></i>
                 <h3>SMAN 9 Denpasar</h3>
-                <p>High School — (2018–2021)</p>
+                <p>Natural Science Major (2020 – 2023)</p>
             </div>
 
             <div class="edu-card">
                 <i class="fa-solid fa-building-columns edu-icon"></i>
                 <h3>ITB STIKOM Bali</h3>
-                <p>Sarjana Informatika (S.Kom) — (2021–2025)</p>
+                <p>Information Technology(2023 - Present)</p>
+                <p>IPK : 3.79</p>
             </div>
         </div>
             <div id="cv-modal" class="modal">
@@ -128,7 +124,7 @@
                     <iframe src="CV_Cokorda Istri Aulia Chandra Dewi.pdf#view=FitH&toolbar=0" frameborder="0">
                     </iframe>
 
-        <button class="close-modal" onclick="closeCV()">Tutup</button>
+        <button class="close-modal" onclick="closeCV()">Close</button>
                 </div>
             </div>
     </section>
@@ -138,47 +134,62 @@
     <!-- ============ EXPERIENCE ============ -->
     <section id="experience" class="section">
         <h2>Experience</h2>
-        <div class="subtitle">Pengalaman organisasi dan kepanitiaan</div>
+        <div class="subtitle">Organizational and Work Experience</div>
 
         <div class="exp-grid">
 
             <div class="exp-card">
                 <i class="fa-solid fa-wallet exp-icon"></i>
-                <h3>Bendahara I Family Gathering - Dec 2024</h3>
-                <p>Mengelola keuangan dan membuat laporan kegiatan.</p>
+                <h3>Bendahara I Family Gathering (DEC 2024)</h3>
+                <p>Managing finances and preparing financial accountability reports.</p>
                 
                 <button class="btn proof-btn"
                     onclick="openModal('website/Bendahara_Famgath.jpg')">
-                        Lihat Bukti
+                        Open
                 </button>
             </div>
 
             <div class="exp-card">
                 <i class="fa-solid fa-wallet exp-icon"></i>
-                <h3>Bendahara II Gebyar Teknologi Informasi - Feb 2025</h3>
-                <p>Membantu administrasi dana dan dokumentasi keuangan.</p>
+                <h3>Bendahara II Gebyar Teknologi Informasi (FEB 2025)</h3>
+                <p>Assisting in fund administration and financial documentation.</p>
 
                 <button class="btn proof-btn"
                     onclick="openModal('website/Bendahara_GebyarTi.jpg')">
-                        Lihat Bukti
+                        Open
             </div>
 
             <div class="exp-card">
                 <i class="fa-solid fa-gamepad exp-icon"></i>
-                <h3>Bendahara I (Event Game)</h3>
-                <p>Mengelola dana event, pencatatan sponsor, dan laporan akhir.</p>
+                <h3>Bendahara Umum HIMAPRODI TI (2023 - Present)</h3>
+                <p>Managing event funds, recording sponsorships, and preparing final reports.</p>
+
+                <button class="btn proof-btn"
+                    onclick="openModal('website/bendahara_umum.JPEG')">
+                        Open
+                </button>
             </div>
 
             <div class="exp-card">
                 <i class="fa-solid fa-user-pen exp-icon"></i>
-                <h3>Koordinator Kesekretariatan</h3>
-                <p>Administrasi dokumen kegiatan, surat menyurat, dan laporan.</p>
+                <h3>Koordinator Kesekretariatan (NOV 2025)</h3>
+                <p>Handling sales processes, content planning, and content promotion.</p>
+
+                <button class="btn proof-btn"
+                    onclick="openModal('website/koor_kesekret.jpg')">
+                        Open
+                </button>
             </div>
 
             <div class="exp-card">
                 <i class="fa-solid fa-users exp-icon"></i>
-                <h3>Admin Jawara Swimming Club</h3>
-                <p>Mengelola data anggota, pendaftaran, dan update jadwal latihan.</p>
+                <h3>Admin Jawara Swimming Club (MEI 2024 - FEB 2025)</h3>
+                <p>Acting as a liaison between the coach and members, managing member data, and scheduling training sessions.</p>
+
+                <button class="btn proof-btn"
+                    onclick="openModal('website/admin_javara.jpg')">
+                        Open
+                </button>
             </div>
 
         </div>
@@ -195,7 +206,7 @@
     <!-- ============ SKILLS ============ -->
     <section id="skills" class="section">
         <h2>Skills</h2>
-        <div class="subtitle">Kemampuan teknis & non-teknis</div>
+        <div class="subtitle">Technical and non-technical skills</div>
 
         <div class="skills-wrapper">
 
@@ -211,7 +222,7 @@
                 <i class="fa-solid fa-pencil-ruler skill-icon"></i>
                 <h3>UI/UX Design</h3>
                 <div class="skill-tags">
-                    <span>Wireframe</span> <span>Prototype</span> <span>Figma</span>
+                    <span>Prototype</span> <span>Figma</span>
                 </div>
             </div>
 
@@ -219,9 +230,60 @@
                 <i class="fa-solid fa-database skill-icon"></i>
                 <h3>Data Management</h3>
                 <div class="skill-tags">
-                    <span>MySQL</span> <span>Documentation</span> 
+                    <span>MySQL</span> <span>Spreadsheets</span> 
                 </div>
             </div>
+
+        </div>
+    </section>
+
+    <!-- ============ SOFT SKILLS ============ -->
+    <section id="soft-skills" class="section">
+        <h2>Soft Skills</h2>
+        <div class="subtitle">Interpersonal and communication skills</div>
+
+        <div class="skills-wrapper">
+
+            <div class="skill-card">
+                <i class="fa-solid fa-bullhorn skill-icon"></i>
+                <h3>Marketing</h3>
+                <div class="skill-tags">
+                    <span>Promotion Strategy</span> <span>Content planning</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-solid fa-clock skill-icon"></i>
+                <h3>Time Management</h3>
+                <div class="skill-tags">
+                    <span>Scheduling Meetings</span> <span>Deadline management</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-solid fa-coins skill-icon"></i>
+                <h3>Financial Management</h3>
+                <div class="skill-tags">
+                    <span>Financial Reporting</span> <span>Expernse Tracking</span> <span>Budget Planning</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-solid fa-people-group skill-icon"></i>
+                <h3>Leadership</h3>
+                <div class="skill-tags">
+                    <span>Team coordination</span> <span>Monitoring progress</span> <span>Task delegation</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-solid fa-arrows-rotate skill-icon"></i>
+                <h3>Adaptability and Flexibility</h3>
+                <div class="skill-tags">
+                    <span>Fast Learning</span> <span>Work Adaptation</span>
+                </div>
+            </div>
+
 
         </div>
     </section>
@@ -231,24 +293,65 @@
     <!-- ============ PROJECTS ============ -->
     <section id="projects" class="section">
     <h2>Projects</h2>
-    <p class="subtitle">Beberapa project yang pernah saya kerjakan</p>
+    <p class="subtitle">Some projects I have worked on</p>
 
     <div class="project-grid">
         <div class="project-card">
             <i class="proj-icon fas fa-code"></i>
-            <h3>Website Laundry</h3>
-            <p>Sistem pemesanan laundry kiloan berbasis web.</p>
-            <a href="https://github.com/username/laundry-project" target="_blank">Lihat Project →</a>
+            <h3>UI/UX Website Simantik</h3>
+            <p>Electronic Equipment Lending and Complaint Management System.</p>
+            <a href="https://www.figma.com/proto/7Jo2Gqr1I4Wbb9At961Yxn/UI-UX-Pengembangan?page-id=0%3A1&node-id=1-50&viewport=443%2C329%2C0.08&t=O48UvlUM6qvMnm89-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A175" target="_blank">Go To Project →</a>
         </div>
 
         <div class="project-card">
             <i class="proj-icon fas fa-desktop"></i>
-            <h3>Aplikasi Kesehatan</h3>
-            <p>Aplikasi tracking kesehatan sederhana.</p>
-            <a href="https://github.com/username/health-app" target="_blank">Lihat Project →</a>
+            <h3>CV Website</h3>
+            <p>A personal CV website created to showcase my profile, skills, experiences, and projects in the field of Information Technology.</p>
+            <a href="https://github.com/ChocoCookiess/website-cv.git" target="_blank">Go To Project →</a>
         </div>
     </div>
     </section>
+
+    <footer class="footer">
+    <div class="footer-container">
+
+        <!-- LEFT -->
+        <div class="footer-brand">
+            <h3>Cokorda Istri Aulia Chandra Dewi</h3>
+            <p>Information Technology Student<br>Web • UI/UX • Data</p>
+        </div>
+
+        <!-- MIDDLE -->
+        <div class="footer-links">
+            <h4>Navigation</h4>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#soft-skills">Soft Skills</a>
+            <a href="#projects">Projects</a>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="footer-social">
+            <h4>Connect</h4>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/chocokieslia" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/ChocoCookiess" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="http://www.linkedin.com/in/chocokieslia/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:cokaulia97@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- BOTTOM -->
+    <div class="footer-bottom">
+        <p>© 2025 Cokorda Istri Aulia Chandra Dewi</p>
+        <button id="backToTop">⬆</button>
+    </div>
+</footer>
 
 
     <script src="script.js"></script>
